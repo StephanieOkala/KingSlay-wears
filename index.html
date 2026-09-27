@@ -1264,25 +1264,49 @@ footer{
 const WHATSAPP_NUMBER = "2349153215271";
  
 
-const CATEGORIES = ["New Arrivals","Baggy / Oversized","T-Shirts","Trousers","Shirts","jersey","Featured Collection"];
+const CATEGORIES = ["New Arrivals","Baggy / Oversized","T-Shirts","Trousers","Shirts","jersey","Featured Collection", "hoodies"];
  
 const products = [
-  { id:1,  name:"Football jersey",        category:"jersey",             price:10000, image:"images/IMG-20260925-WA0019.jpg",  description:"Quality Jersey " },
-  { id:2,  name:"Baggy Jeans",       category:"Baggy / Oversized",   price:21000, image:"images/IMG-20260923-WA0033(1).jpg",  description:"quality baggy jeans." },
-  { id:3,  name:"Balanciaga Polo",    category:"T-Shirts",            price:15000, image:"images/IMG-20260921-WA0085(1).jpg",  description:"High Quality T-shirt." },
-  { id:4,  name:"latest trending shirt",      category:"New Arrivals",        price:20000, image:"images/IMG-20260924-WA0031(1).jpg",  description:"update quality shirt." },
-  { id:5,  name:"Jean Joggers",      category:"Trousers",            price:20000, image:"images/IMG-20260925-WA0071.jpg",  description:"Tailored straight-leg jean trousers for a sharp everyday look." },
-  { id:6,  name:"update shirt",            category:"Shirts",              price:20000, image:"images/IMG-20260924-WA0036(1).jpg",  description:"sleek shirt, worn open or buttoned." },
-  { id:7,  name:"Quality Jersey",           category:"jersey",             price:10000, image:"images/IMG-20260925-WA0023(1).jpg",  description:"Quality Man-U Jersey." },
-  { id:8,  name:" Baggy Denim trouser",            category:"Baggy / Oversized",   price:21000, image:"images/IMG-20260923-WA0034(1).jpg",  description:"quality baggy denim trouser." },
-  { id:9,  name:"Quality Polo",         category:"T-Shirts",            price:10000, image:"images/IMG-20260921-WA0099.jpg",  description:"quality cotton polo with graphics." },
-  { id:10, name:"longsleeve Shirt",           category:"New Arrivals",        price:20000, image:"images/IMG-20260924-WA0003(1).jpg", description:"Quality thick longsleeve shirt." },
-  { id:11, name:"Jean joggers",       category:"Trousers",            price:20000, image:"images/IMG-20260925-WA0073.jpg", description:"Tailored straight-leg jean trousers for a sharp everyday look." },
+  { id:1,  name:"Football jersey",        category:"jersey",             price:10000, 
+  image:"images/IMG-20260902-WA0010.jpg",  description:"Quality Jersey " },
+  { id:2,  name:"update joggers",       category:"featured collections",   price:11000,
+  image:"images/IMG-20260915-WA0073.jpg",  description:"Quality update joggers available in black too." },
+  { id:3,  name:"Balanciaga Polo",    category:"T-Shirts",            price:15000, 
+  image:"images/IMG-20260921-WA0087(1).jpg",  description:"High Quality T-shirt, not your regular." },
+  { id:4,  name:"long sleeve sweater",      category:"New Arrivals",        price:14000, image:"images/IMG-20260928-WA0084.jpg",  description:"Quality Sweater availale in different designs" },
+  { id:5,  name:"Jean Joggers",      category:"Trousers",            price:20000, 
+  image:"images/IMG-20260925-WA0073(1).jpg",  description:"Tailored straight-leg jean trousers for a sharp everyday look." },
+  { id:6,  name:"jean jacket",            category:"Shirts",              price:20000, image:"images/IMG-20260928-WA0069.jpg",  description:"sleek jean jacket, worn open or buttoned. " },
+  { id:7,  name:"Quality Jersey",           category:"jersey",             price:10000, 
+  image:"images/IMG-20260911-WA0027.jpg",  description:"Quality Man-U Jersey." },
+  { id:8,  name:" Quality armless jersey",            category:"jersey",   price:10000, 
+  image:"images/IMG-20260928-WA0094.jpg",  description:"quality sleeveless jersey, if you dont want the regular ones." },
+  { id:9,  name:"Quality Polo",         category:"T-Shirts",            price:10000, 
+  image:"images/IMG-20260922-WA0041.jpg",  description:"quality cotton polo with graphics." },
+  { id:10, name:"net condom Shirt",           category:"New Arrivals",        price:20000, image:"images/IMG-20260928-WA0097.jpg", description:"luxury net condom shirt available in differnt collors." },
+  { id:11,  name:"Quality Polo",         category:"T-Shirts",            price:10000, 
+  image:"images/IMG-20260922-WA0026.jpg",  description:"quality cotton polo with graphics." },
   { id:12, name:"longsleeve shirt",      category:"Shirts",              price:20000, image:"images/IMG-20260924-WA0002.jpg", description:"thick longsleeve shirt for layering season." },
-  { id:13, name:"up and down Juncosco",       category:"Featured Collection", price:23000, image:"images/IMG-20260922-WA0087.jpg", description:"Statement quality two-pieces ." },
+  { id:13, name:"luxury crop top",       category:"Featured Collection", price:23000, image:"images/IMG-20260928-WA0055.jpg", description:"Availale as seen." },
   { id:14, name:"Quality Jersey",  category:"jersey",             price:10000, image:"images/IMG-20260925-WA0028.jpg", description:"Football Jersey." },
   { id:15, name:"Jalabiya",           category:"Featured Collection", price:14000, image:"images/IMG-20260908-WA0080(2).jpg", description:"Quality Jalabiya ." },
   { id:16, name:"Plain Tees",             category:"Shirts",              price:7000, image:"images/1783350965_IMG-20260613-WA0019.jpg", description:"Plain polo for simple looks" },
+  { id:17, name:"hoodies",             category:"hoodies",              price:20000, image:"images/IMG-20260928-WA0048.jpg", description:"luxury hoodie for simple looks" },
+  { id:18,  name:"Quality Jorts.",            category:"Baggy / Oversized",              price:18500, 
+  image:"images/IMG-20260928-WA0050.jpg",  description:"Availale as seen" },
+  { id:19,  name:"Armless Jersey",            category:"jersey",              price:11000, 
+  image:"images/IMG-20260928-WA0095.jpg",  description:"quality sleeveless jersey, if you dont want the regular ones. " },
+  { id:20,  name:"Premium Collar Neck",            category:"Shirts",              price:17000, 
+  image:"images/IMG-20260908-WA0004.jpg",  description:"Quality collar neck available in blue, white,red, cartoonbrown and black too " },
+
+  { id:6,  name:"Long Sleeve Shirt",            category:"New Arrival",              price:14000, 
+  image:"images/IMG-20260928-WA0037.jpg",  description:"Sleek Shirt for that big boy look" },
+  { id:6,  name:"Update Round Neck",            category:"Shirts",              price:15000, 
+  image:"images/IMG-20260911-WA0097.jpg",  description:"Not Your regular!" },
+  { id:6,  name:"High Neck sweater",            category:"Shirts",              price:10000, 
+  image:"images/IMG-20260928-WA0041.jpg",  description:"Turtle Neck Sweater that suits your style" },
+
+  { id:17, name:"hoodies",             category:"hoodies",              price:20000, image:"images/IMG-20260928-WA0049.jpg", description:"luxury hoodie for simple looks" },
 ];
  
 
