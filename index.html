@@ -1124,7 +1124,7 @@ footer{
       <div class="why-item reveal">
         <span class="num">Service</span>
         <h3>Customer-first</h3>
-        <p>Real humans on WhatsApp to help you pick sizes, styles and fits that suit you.</p>
+        <p>Trusted Vendor on WhatsApp to help you pick sizes, styles and fits that suit you.</p>
       </div>
       <div class="why-item reveal">
         <span class="num">Curation</span>
@@ -1264,25 +1264,25 @@ footer{
 const WHATSAPP_NUMBER = "2349153215271";
  
 
-const CATEGORIES = ["New Arrivals","Baggy / Oversized","T-Shirts","Trousers","Shirts","jersey","Featured Collection", "hoodies"];
+const CATEGORIES = ["New Arrivals","Baggy / Oversized","T-Shirts","Trousers","Shirts","jersey","Featured Collection", "hoodies", "two pieces"];
  
 const products = [
-  { id:1,  name:"Football jersey",        category:"jersey",             price:10000, 
-  image:"images/IMG-20260902-WA0010.jpg",  description:"Quality Jersey " },
-  { id:2,  name:"update joggers",       category:"featured collections",   price:11000,
-  image:"images/IMG-20260915-WA0073.jpg",  description:"Quality update joggers available in black too." },
-  { id:3,  name:"Balanciaga Polo",    category:"T-Shirts",            price:15000, 
-  image:"images/IMG-20260921-WA0087(1).jpg",  description:"High Quality T-shirt, not your regular." },
+  { id:1,  name:"Update Shirt",        category:"Shirts",             price:20000, 
+  image:"images/IMG-20261001-WA0031.jpg",  description:"Quality update shirt that suit your style " },
+  { id:2,  name:"update joggers",       category:"featured collections",   price:20000,
+  image:"images/IMG-20260929-WA0004(1).jpg",  description:"Quality update joggers available in black too." },
+  { id:3,  name:"Update collar Neck",    category:"Shirts",            price:17000, 
+  image:"images/IMG-20261001-WA0038.jpg",  description:"Quality collar necl, not your regular." },
   { id:4,  name:"long sleeve sweater",      category:"New Arrivals",        price:14000, image:"images/IMG-20260928-WA0084.jpg",  description:"Quality Sweater availale in different designs" },
   { id:5,  name:"Jean Joggers",      category:"Trousers",            price:20000, 
   image:"images/IMG-20260925-WA0073(1).jpg",  description:"Tailored straight-leg jean trousers for a sharp everyday look." },
   { id:6,  name:"jean jacket",            category:"Shirts",              price:20000, image:"images/IMG-20260928-WA0069.jpg",  description:"sleek jean jacket, worn open or buttoned. " },
-  { id:7,  name:"Quality Jersey",           category:"jersey",             price:10000, 
-  image:"images/IMG-20260911-WA0027.jpg",  description:"Quality Man-U Jersey." },
+  { id:7,  name:"Quality polo",           category:"T-Shirts",             price:10000, 
+  image:"images/IMG-20261001-WA0021.jpg",  description:"Quality polo that suit your style." },
   { id:8,  name:" Quality armless jersey",            category:"jersey",   price:10000, 
   image:"images/IMG-20260928-WA0094.jpg",  description:"quality sleeveless jersey, if you dont want the regular ones." },
   { id:9,  name:"Quality Polo",         category:"T-Shirts",            price:10000, 
-  image:"images/IMG-20260922-WA0041.jpg",  description:"quality cotton polo with graphics." },
+  image:"images/IMG-20261001-WA0020.jpg",  description:"quality cotton polo with graphics." },
   { id:10, name:"net condom Shirt",           category:"New Arrivals",        price:20000, image:"images/IMG-20260928-WA0097.jpg", description:"luxury net condom shirt available in differnt collors." },
   { id:11,  name:"Quality Polo",         category:"T-Shirts",            price:10000, 
   image:"images/IMG-20260922-WA0026.jpg",  description:"quality cotton polo with graphics." },
@@ -1294,19 +1294,31 @@ const products = [
   { id:17, name:"hoodies",             category:"hoodies",              price:20000, image:"images/IMG-20260928-WA0048.jpg", description:"luxury hoodie for simple looks" },
   { id:18,  name:"Quality Jorts.",            category:"Baggy / Oversized",              price:18500, 
   image:"images/IMG-20260928-WA0050.jpg",  description:"Availale as seen" },
-  { id:19,  name:"Armless Jersey",            category:"jersey",              price:11000, 
-  image:"images/IMG-20260928-WA0095.jpg",  description:"quality sleeveless jersey, if you dont want the regular ones. " },
+   { id:19,  name:"Update Shirt",        category:"Shirts",             price:20000, 
+  image:"images/IMG-20261001-WA0033.jpg",  description:"Quality update shirt that suit your style " },
   { id:20,  name:"Premium Collar Neck",            category:"Shirts",              price:17000, 
   image:"images/IMG-20260908-WA0004.jpg",  description:"Quality collar neck available in blue, white,red, cartoonbrown and black too " },
 
-  { id:6,  name:"Long Sleeve Shirt",            category:"New Arrival",              price:14000, 
-  image:"images/IMG-20260928-WA0037.jpg",  description:"Sleek Shirt for that big boy look" },
-  { id:6,  name:"Update Round Neck",            category:"Shirts",              price:15000, 
+  { id:21,  name:"collar neck Shirt",            category:"Shirts",              price:17000, 
+  image:"images/IMG-20261001-WA0040.jpg",  description:"Sleek Shirt for that big boy look" },
+  { id:22,  name:"Update Round Neck",            category:"Shirts",              price:15000, 
   image:"images/IMG-20260911-WA0097.jpg",  description:"Not Your regular!" },
-  { id:6,  name:"High Neck sweater",            category:"Shirts",              price:10000, 
+  { id:23,  name:"High Neck sweater",            category:"Shirts",              price:10000, 
   image:"images/IMG-20260928-WA0041.jpg",  description:"Turtle Neck Sweater that suits your style" },
 
-  { id:17, name:"hoodies",             category:"hoodies",              price:20000, image:"images/IMG-20260928-WA0049.jpg", description:"luxury hoodie for simple looks" },
+  { id:24, name:"hoodies",             category:"hoodies",              price:20000, image:"images/IMG-20260928-WA0049.jpg", description:"luxury hoodie for simple looks" },
+  { id:25,  name:"update joggers",       category:"featured collections",   price:20000,
+  image:"images/IMG-20260915-WA0072.jpg",  description:"Quality update joggers available in black too." },
+  { id:26,  name:"Baggy Short",       category:"Baggy / Oversized",   price:15500,
+  image:"images/IMG-20260930-WA0001.jpg",  description:"Baggy short available in black too." },
+  { id:27,  name:"Up and down Juncosco",       category:"two pieces",   price:23000,
+  image:"images/IMG-20261001-WA0003.jpg",  description:"quality Two piece." },
+   { id:28,  name:"Crest jacket",       category:"New arrivals",   price:13000,
+  image:"images/IMG-20260930-WA0009.jpg",  description:"quality Crest Jackwet." },
+   { id:29,  name:"Quality short",       category:"New Arrivals",   price:10000,
+  image:"images/IMG-20260930-WA0023.jpg",  description:"Available as seen." },
+   { id:30,  name:"Up and down Juncosco",       category:"two pieces",   price:23000,
+  image:"images/IMG-20261001-WA0005.jpg",  description:"quality Two piece." },
 ];
  
 
